@@ -86,7 +86,6 @@ export default function SolutionSection() {
     sliderRef.current.scrollBy({ left: amount, behavior: "smooth" });
   };
 
-  // Drag to scroll (mouse & touch)
   const isDraggingRef = useRef(false);
   const dragStartXRef = useRef(0);
   const scrollStartLeftRef = useRef(0);
@@ -135,7 +134,6 @@ export default function SolutionSection() {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 sm:gap-8 lg:gap-12 items-center">
           
-          {/* Left side - Text content */}
           <div className="space-y-4 sm:space-y-6 lg:col-span-2 px-4 sm:px-6 lg:px-0 lg:pl-6">
             <div className="space-y-3 sm:space-y-4">
               <div className="inline-flex items-center gap-2 px-3 py-1.5 sm:py-2 rounded-full bg-white/80 text-orange-700 text-xs sm:text-sm font-medium shadow-sm">
@@ -183,7 +181,6 @@ export default function SolutionSection() {
               Lihat Semua Kelas
             </Button>
             
-            {/* Desktop Navigation buttons */}
             <div className="hidden lg:flex items-center gap-2">
               <Button
                 variant="light"
@@ -202,10 +199,8 @@ export default function SolutionSection() {
             </div>
           </div>
 
-          {/* Right side - Card slider */}
           <div className="relative lg:col-span-3 px-4 sm:px-0 lg:-ml-14 xl:-ml-20 2xl:-ml-28">
             
-            {/* Mobile & Tablet nav buttons overlay */}
             <div className="lg:hidden absolute inset-y-0 left-0 right-0 pointer-events-none z-10">
               <div className="flex justify-between items-center h-full px-2">
                 <button
@@ -236,7 +231,7 @@ export default function SolutionSection() {
               onTouchMove={onDragMoveTouch}
               onTouchEnd={onDragEndTouch}
             >
-              {/* hide scrollbar */}
+
               <style>{`.no-scrollbar::-webkit-scrollbar{display:none}`}</style>
               
               {classes.map((item) => (
