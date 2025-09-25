@@ -22,19 +22,7 @@ export default function ProblemTimeline() {
   return (
     <section className="relative py-20 bg-white overflow-hidden">
       <div className="absolute inset-0">
-        <div 
-          className="absolute inset-0 opacity-[0.015]"
-          style={{
-            backgroundImage: `
-              linear-gradient(30deg, #dc2626 12%, transparent 12.5%, transparent 87%, #dc2626 87.5%, #dc2626),
-              linear-gradient(150deg, #dc2626 12%, transparent 12.5%, transparent 87%, #dc2626 87.5%, #dc2626),
-              linear-gradient(30deg, #dc2626 12%, transparent 12.5%, transparent 87%, #dc2626 87.5%, #dc2626),
-              linear-gradient(150deg, #dc2626 12%, transparent 12.5%, transparent 87%, #dc2626 87.5%, #dc2626)
-            `,
-            backgroundSize: '80px 140px',
-            backgroundPosition: '0 0, 0 0, 40px 70px, 40px 70px'
-          }}
-        />
+        
 
         <div className="absolute top-20 left-1/4 w-20 h-20 bg-red-200 rounded-full opacity-20 blur-2xl"></div>
         <div className="absolute top-40 right-1/3 w-32 h-32 bg-blue-200 rounded-full opacity-15 blur-2xl"></div>

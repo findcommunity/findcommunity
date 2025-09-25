@@ -8,19 +8,6 @@ export default function VisionMissionZigzag() {
   return (
     <section className="relative py-20 bg-white overflow-hidden">
       <div className="absolute inset-0">
-        <div 
-          className="absolute inset-0 opacity-[0.02]"
-          style={{
-            backgroundImage: `
-              linear-gradient(45deg, #f59e0b 25%, transparent 25%), 
-              linear-gradient(-45deg, #f59e0b 25%, transparent 25%), 
-              linear-gradient(45deg, transparent 75%, #f59e0b 75%), 
-              linear-gradient(-45deg, transparent 75%, #f59e0b 75%)
-            `,
-            backgroundSize: '60px 60px',
-            backgroundPosition: '0 0, 0 30px, 30px -30px, -30px 0px'
-          }}
-        />
         
         <div className="absolute top-20 left-10 w-32 h-32 bg-yellow-200 rounded-full opacity-20 blur-xl"></div>
         <div className="absolute top-60 right-20 w-48 h-48 bg-yellow-300 rounded-full opacity-15 blur-2xl"></div>
