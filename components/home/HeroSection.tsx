@@ -205,7 +205,7 @@ export default function HeroSection() {
         }}
       />
 
-      <div className="relative z-10 flex flex-col items-center justify-center gap-8 text-center w-full max-w-6xl px-8 md:px-12 py-12 md:py-16 rounded-3xl backdrop-blur-sm bg-white/80 border border-white/20 shadow-2xl">
+      <div className="relative z-10 flex flex-col items-center justify-center gap-8 text-center w-full max-w-6xl px-8 md:px-12 py-12 md:py-16 rounded-3xl bg-white/30">
 
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#e5e7eb_1px,transparent_1px),linear-gradient(to_bottom,#e5e7eb_1px,transparent_1px)] bg-[size:80px_80px] opacity-30 rounded-3xl"></div>
 
