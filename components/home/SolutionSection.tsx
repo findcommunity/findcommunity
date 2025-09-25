@@ -151,7 +151,7 @@ export default function SolutionSection() {
               <div className="h-1 w-20 sm:w-28 md:w-32 rounded-full bg-gradient-to-r from-orange-400 to-orange-600" />
             </div>
             
-            <p className="text-sm sm:text-base md:text-lg text-gray-800/90 leading-relaxed">
+            <p className="text-sm sm:text-base md:text-lg text-gray-800/90 leading-relaxed max-w-sm">
               Jelajahi kelas populer yang bisa kamu ikuti untuk meningkatkan kemampuan finansial dan investasi kamu
             </p>
             
