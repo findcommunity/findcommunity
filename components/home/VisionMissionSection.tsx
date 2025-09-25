@@ -62,7 +62,7 @@ export default function VisionMissionZigzag() {
             <div className="absolute -inset-4 bg-gradient-to-r from-yellow-400 to-yellow-600 rounded-2xl opacity-10 blur-xl"></div>
             <div className="absolute -top-3 -left-3 w-6 h-6 bg-yellow-400 rounded-full opacity-30"></div>
             <div className="absolute -bottom-3 -right-3 w-4 h-4 bg-yellow-500 rounded-full opacity-40"></div>
-            <img src="/2-young.png" alt="Visi Find" className="relative z-10 rounded-xl"  />
+            <img src="/2-young.png" alt="Visi Find" className="hidden md:block relative z-10 rounded-xl"  />
           </motion.div>
 
           <motion.div
@@ -185,7 +185,7 @@ export default function VisionMissionZigzag() {
             <div className="absolute -top-1 left-4 right-4 h-0.5 bg-gradient-to-r from-yellow-400 via-transparent to-yellow-400 opacity-30"></div>
             <div className="absolute -bottom-1 left-4 right-4 h-0.5 bg-gradient-to-r from-yellow-400 via-transparent to-yellow-400 opacity-30"></div>
             
-            <img src="/bisnis-women.png" alt="Misi Find" className="relative z-10 rounded-xl" />
+            <img src="/bisnis-women.png" alt="Misi Find" className="hidden md:block relative z-10 rounded-xl" />
           </motion.div>
         </div>
 
