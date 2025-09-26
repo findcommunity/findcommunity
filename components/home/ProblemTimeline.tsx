@@ -8,7 +8,7 @@ const containerVariants = {
   show: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.25, // jeda antar item
+      staggerChildren: 0.25, 
     },
   },
 };
