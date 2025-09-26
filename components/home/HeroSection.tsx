@@ -194,7 +194,7 @@ export default function HeroSection() {
       <motion.img
         src="/her1.png"
         alt="Finance illustration left"
-        className="hidden md:block w-64 h-auto absolute left-4 top-[60%] -translate-y-1/2 z-20 drop-shadow-2xl"
+        className="hidden lg:block w-64 h-auto absolute left-4 top-[60%] -translate-y-1/2 z-20 drop-shadow-2xl"
         initial={{ opacity: 0, x: -50, rotate: -5 }}
         animate={{ opacity: 1, x: 0, rotate: 0 }}
         transition={{ duration: 1, delay: 0.5 }}
@@ -434,7 +434,7 @@ export default function HeroSection() {
       <motion.img
         src="/her2.png"
         alt="Finance illustration right"
-        className="hidden md:block w-64 h-auto absolute right-4 top-[50%] -translate-y-1/2 z-10 drop-shadow-2xl"
+        className="hidden lg:block w-64 h-auto absolute right-4 top-[50%] -translate-y-1/2 z-10 drop-shadow-2xl"
         initial={{ opacity: 0, x: 50, rotate: 5 }}
         animate={{ opacity: 1, x: 0, rotate: 0 }}
         transition={{ duration: 1, delay: 0.7 }}
